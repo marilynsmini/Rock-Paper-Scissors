@@ -42,8 +42,8 @@ const game = ()=> {
             compareHands(this.textContent, computerChoice);
 
             //Update images
-            playerHand.src = `./images/${this.textContent}.png`;
-            computerHand.src = `./images/${computerChoice}.png`;
+            playerHand.src = `images/${this.textContent}.png`;
+            computerHand.src = `images/${computerChoice}.png`;
         }, 2000);
 
             //Animation
